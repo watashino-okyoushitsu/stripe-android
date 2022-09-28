@@ -27,7 +27,8 @@
         <activity
             android:name=".payments.StripeBrowserLauncherActivity"
             android:theme="@style/StripeTransparentTheme"
-            android:launchMode="singleTop">
+            android:launchMode="singleTop"
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.VIEW" />
                 <category android:name="android.intent.category.DEFAULT" />
